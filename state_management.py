@@ -43,7 +43,7 @@ def initialize_session_state():
     # Initialize message log
     if "message_log" not in st.session_state:
         st.session_state.message_log = [
-            {"role": "ai", "content": "Hi! I'm Zea, your AI companion with document intelligence. What can I do for you today? You can chat with me or upload documents (PDF, DOCX, TXT, PPTX, CSV) for analysis."}
+            {"role": "ai", "content": "Hi, I’m Zea – your AI Companion from Zerthia, where empathy meets intelligence. I’m here to help you explore, understand, and take action. You can chat with me or upload your documents (PDF, DOCX, TXT, PPTX, CSV) for smart, meaningful insights. Let’s decode data, inspire impact, and change the world, together. For more, visit www.syntheim.com"}
         ]
 
     # Initialize processing state
