@@ -2,6 +2,8 @@
 
 ZERTHIA is an AI assistant with document intelligence capabilities, built using Streamlit, LangChain, and the Groq API. It provides a user-friendly chat interface for interacting with AI models and uploading documents for analysis.
 
+**VIEW DEPLOYED VERSION HERE**: https://zea-ai.streamlit.app/
+
 ## Features
 
 - **Chat Interface**: Interact with the AI assistant through a natural language interface
@@ -31,6 +33,8 @@ The application is structured into several modules:
    ```
    GROQ_API_KEY=your_groq_api_key
    TAVILY_API_KEY=your_tavily_api_key
+   COHERE_API_KEY=your_cohere_api_key
+   HUGGINGFACE_API_KEY=your_huggingface_token
    ```
 4. Run the application:
    ```
